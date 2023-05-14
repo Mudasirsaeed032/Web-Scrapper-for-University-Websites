@@ -14,3 +14,30 @@ Moreover, the tool allows users to explore the proximity of nouns to the term "q
 This project incorporates various Python libraries, including networkx, matplotlib, spacy, and pandas, to facilitate graph construction, visualization, and data manipulation.
 
 The University Website Data Analysis and Visualization Tool provides a comprehensive and efficient solution for extracting, analyzing, and visualizing data from university websites. It offers valuable insights into linguistic patterns and semantic connections, enabling users to gain a deeper understanding of the content and themes present on these websites.
+
+
+# HOW TO RUN
+Install the required libraries:
+
+networkx: Install using pip install networkx.
+spacy: Install using pip install spacy. Download the English language model using python -m spacy download en_core_web_sm.
+pandas: Install using pip install pandas.
+matplotlib: Install using pip install matplotlib.
+requests: Install using pip install requests.
+urllib: Install using pip install urllib3.
+BeautifulSoup: Install using pip install beautifulsoup4.
+dframcy: Install using pip install dframcy.
+Prepare your URLs:
+
+Modify the urluaar1, urluet, urlcomsats1, and urlcomsats2 variables with the desired URLs of the university websites you want to scrape.
+Run the code:
+
+Execute the code, and it will scrape the specified university websites and store the data in separate text files: Uaar.txt, Uet.txt, and Comsats.txt.
+The code will prompt you to choose a university website by entering a number (1, 2, or 3).
+Enter the corresponding number and press Enter.
+The code will perform analysis on the chosen university's web content, including extracting nouns, adjectives, and verbs, and displaying their frequencies.
+It will also construct a graph showing the connections between the nouns based on co-occurrence in sentences.
+Additionally, it will display the top 10 nouns with the highest weighted degree and print the five words near the word "Quality" within the selected university's content.
+Note: Ensure that you have a stable internet connection to fetch the website data successfully.
+
+Remember to have the required permissions to scrape the university websites, as some websites may have restrictions or terms of use.
